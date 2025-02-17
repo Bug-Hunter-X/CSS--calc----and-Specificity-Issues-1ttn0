@@ -1,0 +1,15 @@
+/* bugSolution.css */
+.container {
+  width: calc(100vw - 20px); /* Use vw for viewport width */
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+.element {
+  width: 50%; /* More specific selector */
+}
+
+/* Use !important only when absolutely necessary and understand the implications. */
+.important-element {
+  width: 200px !important;
+}
